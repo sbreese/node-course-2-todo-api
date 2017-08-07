@@ -1,23 +1,20 @@
+const {ObjectID} = require('mongodb');
+
 const {mongoose} = require('./../server/db/mongoose');
 const {Todo} = require('./../server/models/todo');
+const {User} = require('./../server/models/user');
 
-var id = '597fa05de690d5177d574838'; // (get from Robo 3T 'todos' collection
+// Todo.remove({}).then((result) => {
+//   console.log(result);
+// });
 
-Todo.find({
-  _id: id
-}).then((todos) => {
-  console.log('Todos', todos);
-});
+// Todo.findOneAndRemove
+// Todo.findByIdAndRemove
 
-Todo.findOne({
-  _id: id
-}).then((todo) => {
-  console.log('Todo', todo);
-});
+// Todo.findOneAndRemove({_id: '57c4610dbb35fcbf6fda1154'}).then((todo) => {
+//
+// });
 
-Todo.findById(id).then((todo) => {
-  if (!todo) {
-    return console.log('Id not found')
-  }
-  console.log('Todo', todo);
+Todo.findByIdAndRemove('57c4610dbb35fcbf6fda1154').then((todo) => {
+  console.log(todo);
 });
