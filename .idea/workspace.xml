@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3909bb5a-95d6-41c2-8961-124c54a3eea1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/tests/server.test.js" afterPath="$PROJECT_DIR$/server/tests/server.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/models/user.js" afterPath="$PROJECT_DIR$/server/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
     </list>
     <ignored path="node-todo-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+            <state relative-caret-position="324">
+              <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -37,8 +39,8 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -54,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tests/server.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+            <state relative-caret-position="516">
+              <caret line="245" column="3" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -69,7 +71,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1502404244000" expanded="true" signature="107:237" ph="{&quot;start&quot;: &quot;node server/server.js&quot;...}" />
+                <marker date="1502404244000" expanded="true" signature="252:277" ph="{&quot;node&quot;: &quot;6.2.2&quot;...}" />
+                <marker date="1502404244000" expanded="true" signature="333:552" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,11 +95,11 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/db/mongoose.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
-        <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/playground/hashing.js" />
-        <option value="$PROJECT_DIR$/server/models/user.js" />
         <option value="$PROJECT_DIR$/server/tests/seed/seed.js" />
         <option value="$PROJECT_DIR$/server/tests/server.test.js" />
+        <option value="$PROJECT_DIR$/server/models/user.js" />
+        <option value="$PROJECT_DIR$/server/server.js" />
       </list>
     </option>
   </component>
@@ -348,12 +354,12 @@
       <workItem from="1501535693583" duration="3061000" />
       <workItem from="1501693247638" duration="7000" />
       <workItem from="1501810431442" duration="6090000" />
-      <workItem from="1502254194423" duration="5097000" />
+      <workItem from="1502254194423" duration="6136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31089000" />
+    <option name="totallyTimeSpent" value="32128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="308" y="124" width="1040" height="698" extended-state="0" />
@@ -423,7 +429,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502404244000" expanded="true" signature="107:237" ph="{&quot;start&quot;: &quot;node server/server.js&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="252:277" ph="{&quot;node&quot;: &quot;6.2.2&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="333:552" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -454,7 +464,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502404244000" expanded="true" signature="107:237" ph="{&quot;start&quot;: &quot;node server/server.js&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="252:277" ph="{&quot;node&quot;: &quot;6.2.2&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="333:552" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -485,7 +499,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502404244000" expanded="true" signature="107:237" ph="{&quot;start&quot;: &quot;node server/server.js&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="252:277" ph="{&quot;node&quot;: &quot;6.2.2&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="333:552" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -545,7 +563,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502404244000" expanded="true" signature="107:237" ph="{&quot;start&quot;: &quot;node server/server.js&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="252:277" ph="{&quot;node&quot;: &quot;6.2.2&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="333:552" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -576,7 +598,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502404244000" expanded="true" signature="107:237" ph="{&quot;start&quot;: &quot;node server/server.js&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="252:277" ph="{&quot;node&quot;: &quot;6.2.2&quot;...}" />
+            <marker date="1502404244000" expanded="true" signature="333:552" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,26 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playground/hashing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -628,8 +638,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/tests/server.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+        <state relative-caret-position="516">
+          <caret line="245" column="3" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="43" />
           <folding />
         </state>
       </provider>
